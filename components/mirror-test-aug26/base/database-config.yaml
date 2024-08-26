@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mirror-test-aug26-database-config
+data:
+  VECTORDB_HOST: "mirror-test-aug26-database"
+  VECTORDB_PORT: ""
